@@ -153,3 +153,7 @@ cython_debug/
 
 #api
 API.txt
+single-azimuth-383002-bc27fcf42784.json
+api_key.txt
+personal_email.txt
+sheet_id.txt
