@@ -6,10 +6,9 @@ from googleapiclient.errors import HttpError
 
 #pull API key from txt file
 API_KEY = open("api_key.txt", "r").read()
-#API_KEY = 'AIzaSyCYUhfP5vHaHAgeUL47G2EmRXbQwr-MXsQ'
 LOCATION = '37.205066, -93.285341'  # Approximate center of Lake of the Ozarks
 RADIUS = '50000'  # Search within a 50 km radius
-TYPE = 'laundry' #https://developers.google.com/maps/documentation/places/web-service/supported_types
+TYPE = 'lodging' #https://developers.google.com/maps/documentation/places/web-service/supported_types
 KEYWORD = ''
 
 def find_businesses_without_website():
